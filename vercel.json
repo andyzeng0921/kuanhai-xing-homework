@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "name": "tomato-kingdom",
+  "builds": [
+    {
+      "src": "index-mobile-enhanced.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "index-standalone.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/index-mobile-enhanced.html"
+    },
+    {
+      "src": "/basic",
+      "dest": "/index-standalone.html"
+    }
+  ]
+}

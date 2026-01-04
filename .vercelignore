@@ -1,0 +1,16 @@
+node_modules
+.git
+*.md
+*.txt
+*.bat
+生成二维码.html
+启动服务器.bat
+src/
+public/
+package.json
+vite.config.js
+tailwind.config.js
+postcss.config.js
+.gitignore
+README.md
+START.md
